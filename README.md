@@ -1,6 +1,6 @@
 # envoy-ext-proc-stubs
 
-This module contains the server stubs for Envoy's
+This module contains the client and server stubs for Envoy's
 [ext_proc](https://www.envoyproxy.io/docs/envoy/latest/configuration/http/http_filters/ext_proc_filter) protocol, generated and compiled for Rust, using 
 [Tonic](https://github.com/hyperium/tonic) as the gRPC 
 implementation. These stubs are sufficient, if used with Tonic, to support a gRPC server that works
