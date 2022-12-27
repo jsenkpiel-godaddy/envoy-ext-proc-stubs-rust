@@ -2,6 +2,8 @@
 name = "envoy-ext-proc-stubs"
 version = "0.1.0"
 edition = "2021"
+description = "Pre-compiled gRPC client and server stubs for the Envoy ext_proc protocol"
+license = "MIT"
 
 [dependencies]
 prost = "0.11"
