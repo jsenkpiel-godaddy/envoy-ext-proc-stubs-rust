@@ -6,13 +6,13 @@ description = "Pre-compiled gRPC client and server stubs for the Envoy ext_proc 
 license = "MIT"
 
 [dependencies]
-prost = "0.11"
-prost-types = "0.11"
-tonic = "0.8"
+prost = "0.13"
+prost-types = "0.13"
+tonic = "0.12"
 
 [build-dependencies]
-prost-build = "0.11"
-tonic-build = "0.8"
+prost-build = "0.13"
+tonic-build = "0.12"
 
 [lib]
 name = "envoy_ext_proc_stubs"
